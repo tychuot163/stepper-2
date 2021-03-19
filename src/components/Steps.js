@@ -27,7 +27,7 @@ class Steps extends Component {
           <Button disabled={stage === count} click={handleClick1}>
             Continue
           </Button>
-          <Button disabled={stage === count} click={handleClick2}>
+          <Button disabled={stage === 1} click={handleClick2}>
             Previous
           </Button>
         </div>
